@@ -1,8 +1,9 @@
 /* For Mobiles */
 .startMenu-container{
 
-    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    border:1px solid transparent;
+    animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    border:1px solid #aaa;
+    
     border-radius:8px;
     background-color: rgba(242, 242, 242, 0.9);
     height:85%;
@@ -20,43 +21,78 @@
 
 
 
-@keyframes fade-in-bottom {
-    0% {
-      -webkit-transform: translateY(50px);
-              transform: translateY(50px);
-      opacity: 0;
+@keyframes fade-in-fwd {
+    0% {     
+        transform: translateZ(-80px);
+        opacity: 0;
     }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+    100% {     
+        transform: translateZ(0);
+        opacity: 1;
     }
   }
   
+  
 
 .startMenu-container-top{
-
+    
+    border-radius:8px 8px 0 0;
     background-color: rgba(242, 242, 242, 0.9);
     border-bottom:1px solid #aaa;
     height:90%;
 
 }
+.startMenu-item-container{
+    padding:1rem;
+}
+.startMenu-container-bottom{
+    display: flex;
+    height: 3.5rem;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0rem 1rem 0 1rem;
+    
+    
 
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
 
+.profile-picture{
+    width: 34px;
+    margin-right: 0.5rem;
+    border-radius: 15px;
+}
+.shutDown-icon{
+    width: 24px;
+}
+.app-icon{
+    width:4rem;
+}
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
-    p{
-        color:blue;
+    .startMenu-container{
+        height:85%;
+        min-width: 540px;
+        width:50%;                      
     }
 }
+
+
 
 /* For Desktop */
 @media screen and (min-width: 780px) {
     .startMenu-container{
         height:85%;
-        width:40%;
-        
-        
+        min-width: 540px;
+        min-height: 60px;
+        width:50%;
+                             
+    }
+    .startMenu-container-bottom{
+        margin: 0rem 3rem 0 4rem; 
     }
 }

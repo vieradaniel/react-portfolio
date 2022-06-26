@@ -1,3 +1,5 @@
+
+/* For Mobile */
 .Taskbar-Container{
     position:fixed;
     bottom:0;
@@ -16,7 +18,22 @@
 
 .taskbar-icon:hover{
     cursor: pointer;
-	background-color: rgba(218, 228, 240, 0.95);
-    padding:0.2rem;
+	
     
+}
+.active{
+    background-color: rgba(218, 228, 240, 0.95);
+    padding:0.2rem;
+}
+
+
+/* For Desktop */
+@media screen and (min-width: 780px) {
+
+    .taskbar-icon:hover{
+       
+        background-color: rgba(218, 228, 240, 0.95);
+        padding:0.2rem;
+        
+    }
 }

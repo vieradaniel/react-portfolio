@@ -1,0 +1,19 @@
+.desktop-container{
+    height: 100vh; 
+}
+.desktop-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+.app-icon{
+    padding:1rem;
+}
+
+.app-icon:hover{
+    cursor: pointer;
+	background-color: rgba(218, 228, 240, 0.95);
+    
+    
+}
