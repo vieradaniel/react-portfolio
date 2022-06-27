@@ -1,5 +1,5 @@
-.desktop-container{
-   
+a{
+    text-decoration: none;
 }
 .desktop-top{
     display: flex;
@@ -8,10 +8,23 @@
     
 }
 .app-icon{
+    
+    width:4rem;
+    
+}
+.app-icon-container{
     padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
-.app-icon:hover{
+.app-icon-title {
+    margin:0;
+    
+}
+
+.app-icon-container:hover{
     cursor: pointer;
 	background-color: rgba(218, 228, 240, 0.95);
     

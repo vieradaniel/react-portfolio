@@ -72,9 +72,7 @@
 .shutDown-icon{
     width: 24px;
 }
-.app-icon{
-    width:4rem;
-}
+
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
