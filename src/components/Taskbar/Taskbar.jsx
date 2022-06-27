@@ -16,7 +16,7 @@ export const Taskbar = () => {
         <div className="taskbar-icon-container">
           <img
             className={`taskbar-icon ${startButton && 'active'}`}
-            src="../src/assets/icons/start.png"
+            src="assets/icons/start.png"
             alt="hi"
           />
         </div>
