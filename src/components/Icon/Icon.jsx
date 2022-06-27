@@ -9,7 +9,7 @@ export const Icon = ({name,src,href}) => {
       className="app-icon-container"
     >
       <img src={src} alt="img" className="app-icon" />
-      <p className="app-icon-title">{name}</p>
+      {/* <p className="app-icon-title">{name}</p> */}
     </a>
   );
 };

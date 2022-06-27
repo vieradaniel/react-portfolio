@@ -5,7 +5,7 @@ export const iconObjects = [
     href: "http://www.google.com",
   },
   {
-    name: "My CV",
+    name: "LinkedIn",
     src: "assets/icons/linkedin.png",
     href: "https://www.linkedin.com/in/viera-daniel",
   },

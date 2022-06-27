@@ -11,7 +11,7 @@ export const Desktop = () => {
         <div className='desktop-top'>
             <div className='app-icon-container'>
                 <img src="assets/icons/folder.png" alt="img" className='app-icon' /> 
-                <p className='app-icon-title'>My CV</p>
+                {/* <p className='app-icon-title'>My Projects</p> */}
             </div>
             
             

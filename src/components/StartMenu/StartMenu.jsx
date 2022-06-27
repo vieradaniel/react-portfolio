@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from "../Icon/Icon";
 import "./StartMenu.css";
 
 export const StartMenu = ({ startButton }) => {
@@ -11,7 +12,7 @@ export const StartMenu = ({ startButton }) => {
         <div className="startMenu-container">
           <div className="startMenu-container-top">
             
-              <img src="assets/icons/Chrome.ico" alt="img"  className='app-icon'/>
+              <Icon name='app' src="assets/icons/Chrome.ico" href="http://www.google.com"/>
             
            
           </div>
