@@ -11,9 +11,10 @@ export const StartMenu = ({ startButton }) => {
       (
         <div className="startMenu-container">
           <div className="startMenu-container-top">
-            
+            <div>
               <Icon name='app' src="assets/icons/Chrome.ico" href="http://www.google.com"/>
-            
+              
+            </div>
            
           </div>
           <div className="startMenu-container-bottom">
