@@ -1,17 +1,18 @@
 export const iconObjects = [
   {
-    name: "My CV",
+    name: "",
     src: "assets/icons/Chrome.ico",
     href: "http://www.google.com",
   },
   {
-    name: "LinkedIn",
+    name: "",
     src: "assets/icons/linkedin.png",
     href: "https://www.linkedin.com/in/viera-daniel",
   },
   {
-    name: "GitHub",
+    name: "",
     src: "assets/icons/github.png",
     href: "https://github.com/vieradaniel",
   },
+  
 ];
