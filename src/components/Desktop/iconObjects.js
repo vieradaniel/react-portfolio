@@ -1,8 +1,8 @@
 export const iconObjects = [
   {
     name: "",
-    src: "assets/icons/Chrome.ico",
-    href: "http://www.google.com",
+    src: "assets/icons/mail.png",
+    href: "mailto: profesordanielviera@gmail.com",
   },
   {
     name: "",
